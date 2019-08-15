@@ -4,11 +4,11 @@ import { Search } from "./search";
 import { Creator } from "./creator";
 import { Menu } from "./menu";
 
-export const NavBar = props => {
+export const NavBar = ({ handleInputChange }) => {
   return (
     <div className="navbar-container">
       <Logo />
-      <Search handleInputChange={props.handleInputChange} />
+      <Search handleInputChange={handleInputChange} />
       <Creator />
       <Menu />
     </div>
