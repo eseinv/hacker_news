@@ -1,33 +1,152 @@
-.App {
-  text-align: center;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-container {
+  background: rgb(245, 120, 33);
+  height: 60px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  color: #fff;
+  font-size: 1.6em;
+  font-family: sans-serif;
+  font-weight: 300;
+  border: 1px solid #fff;
+  padding: 0.1em 0.3em;
+  margin-left: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo:hover {
+  cursor: default;
+}
+
+.logo::selection {
+  background: transparent;
+}
+
+.search {
+  margin-left: 2em;
+  height: 35px;
+  width: 800px;
+  font-size: 1em;
+  padding: 0 0.5em;
+}
+
+.search:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .search {
+    width: 500px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 760px) {
+  .search {
+    width: 200px;
   }
+}
+
+.creator-container {
+  margin-left: auto;
+  margin-right: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.creator-by {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.creator-name {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.algoria {
+  width: 20px;
+  height: auto;
+}
+
+.creator-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.menu-container {
+  margin-right: 1em;
+}
+
+.menu-container:hover {
+  cursor: pointer;
+}
+
+.icon-menu {
+  width: 40px;
+  height: auto;
+}
+
+.toolbar-container {
+  background: rgb(243, 242, 242);
+  padding: 0.3em;
+}
+
+.toolbar-text {
+  margin-left: 0.5em;
+  color: rgb(70, 70, 70);
+}
+
+.toolbar-select {
+  margin-left: 0.5em;
+}
+
+.article {
+  padding: 0.5em 1.5em;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  background: rgb(246, 246, 239);
+}
+
+.article:hover {
+  background: rgb(236, 236, 229);
+}
+
+.article-metainfo {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  color: rgb(150, 150, 150);
+}
+
+.article-title {
+  font-size: 1.1em;
+  font-family: sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+.article-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.article-details {
+  margin-top: 0.3em;
+  margin-right: 0.5em;
+  font-size: 0.8em;
+}
+
+.article-details:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.separator {
+  color: rgb(200, 200, 200);
 }
