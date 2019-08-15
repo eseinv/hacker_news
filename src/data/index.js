@@ -55,7 +55,7 @@ export const ArticlesData = [
   },
   {
     id: 7,
-    title: "Cloudflare Reverse Proxies Are DUmping Uninitialized Memory",
+    title: "Cloudflare Reverse Proxies Are Dumping Uninitialized Memory",
     points: 3238,
     poster: "tptacek",
     posted: "2 years ago",
