@@ -2,7 +2,7 @@ export const ArticlesData = [
   {
     id: 1,
     title: "Stephen Hawking has died",
-    points: 6015,
+    points: 4015,
     poster: "Cogito",
     posted: "6 months ago",
     comments: 436,
@@ -11,7 +11,7 @@ export const ArticlesData = [
   {
     id: 2,
     title: "A Message to Our Customers",
-    points: 5771,
+    points: 5671,
     poster: "epaga",
     posted: "3 years ago",
     comments: 957,
@@ -38,7 +38,7 @@ export const ArticlesData = [
   {
     id: 5,
     title: "F.C.C. Repeals Net Neutrality Rules",
-    points: 3384,
+    points: 1384,
     poster: "panny",
     posted: "9 months ago",
     comments: 1397,
@@ -56,7 +56,7 @@ export const ArticlesData = [
   {
     id: 7,
     title: "Cloudflare Reverse Proxies Are Dumping Uninitialized Memory",
-    points: 3238,
+    points: 3398,
     poster: "tptacek",
     posted: "2 years ago",
     comments: 992,
@@ -65,7 +65,7 @@ export const ArticlesData = [
   {
     id: 8,
     title: "UK votes to leave EU",
-    points: 3124,
+    points: 4124,
     poster: "dmmalam",
     posted: "2 years ago",
     comments: 2531,

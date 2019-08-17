@@ -1,10 +1,10 @@
 import React from "react";
-import { ArticlesData } from "../data/";
 
 export const Articles = props => {
-  const filteredArticles = ArticlesData.filter(article =>
+  const filteredArticles = props.articles.filter(article =>
     article.title.toLowerCase().includes(props.searchFilter.toLowerCase())
   );
+
   return (
     <div className="articles-container">
       {filteredArticles.map(article => (
